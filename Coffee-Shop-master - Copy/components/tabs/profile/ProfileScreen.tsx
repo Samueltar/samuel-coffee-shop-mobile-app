@@ -79,52 +79,10 @@ function ProfileScreen() {
       {/* Buttons Section */}
       <View style={styles.btnView}>
         {/* Edit Profile */}
-        <View style={styles.profileBtn}>
-          <TouchableOpacity
-            style={styles.btnContent}
-            onPress={() => navigation.navigate("EditProfile")}
-          >
-            <Icon name="user" size={20} color="#523712" style={styles.icon} />
-            <Text style={styles.profileBtnText}>Edit Profile</Text>
-            <Icon name="angle-right" size={20} color="#523712" style={styles.arrowIcon} />
-          </TouchableOpacity>
-        </View>
-
-        {/* My Orders */}
-        <View style={styles.profileBtn}>
-          <TouchableOpacity
-            style={styles.btnContent}
-            onPress={() => navigation.navigate("Order")}
-          >
-            <Icon name="shopping-bag" size={20} color="#523712" style={styles.icon} />
-            <Text style={styles.profileBtnText}>My Orders</Text>
-            <Icon name="angle-right" size={20} color="#523712" style={styles.arrowIcon} />
-          </TouchableOpacity>
-        </View>
-
-        {/* Wishlist */}
-        <View style={styles.profileBtn}>
-          <TouchableOpacity
-            style={styles.btnContent}
-            onPress={() => navigation.navigate("Wishlist")}
-          >
-            <Icon name="heart" size={20} color="#523712" style={styles.icon} />
-            <Text style={styles.profileBtnText}>Wishlist</Text>
-            <Icon name="angle-right" size={20} color="#523712" style={styles.arrowIcon} />
-          </TouchableOpacity>
-        </View>
-
-        {/* Settings */}
-        <View style={styles.profileBtn}>
-          <TouchableOpacity
-            style={styles.btnContent}
-            onPress={() => navigation.navigate("Setting")}
-          >
-            <Icon name="cog" size={20} color="#523712" style={styles.icon} />
-            <Text style={styles.profileBtnText}>Settings</Text>
-            <Icon name="angle-right" size={20} color="#523712" style={styles.arrowIcon} />
-          </TouchableOpacity>
-        </View>
+        
+     
+       
+       
 
         {/* Log Out */}
         <View style={styles.profileBtn}>
